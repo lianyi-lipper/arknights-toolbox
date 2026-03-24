@@ -92,4 +92,4 @@ schtasks /create /tn "ArknightsDataFetch" /tr "C:\work\skland-api\run_all.bat" /
 
 ## 致谢
 
-- 森空岛 API SDK 基于 [xxyz30/skland-api](https://github.com/xxyz30/skland-api)
+- 森空岛 API SDK 基于 [aynakeya/skland-api](https://github.com/aynakeya/skland-api)
