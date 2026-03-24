@@ -1,3 +1,16 @@
 .idea
 dist
 __pycache__
+
+# 敏感文件（含明文密码）
+daily_tasks/config.json
+
+# 每日数据（不需要进 Git）
+daily_tasks/raw_data/
+daily_tasks/archive/
+daily_tasks/analyze/reports/
+daily_tasks/data/
+
+# 寻访数据（不需要进 Git）
+gacha_tasks/raw_data/
+gacha_tasks/analyze/reports/
