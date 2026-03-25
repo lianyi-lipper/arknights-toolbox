@@ -51,7 +51,7 @@ arknights-toolbox/
 ### 1. 安装依赖
 
 ```bash
-pip install httpx playwright
+pip install -r requirements.txt
 python -m playwright install chromium
 ```
 
