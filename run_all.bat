@@ -4,9 +4,6 @@ chcp 65001 >nul
 :: Arknights Toolbox - Auto Run
 cd /d "%~dp0"
 
-:: Activate conda
-call "C:\ProgramData\miniconda3\Scripts\activate.bat" base
-
 echo.
 echo [1/3] Daily data fetch...
 python daily_tasks\fetch\get_daily_info.py

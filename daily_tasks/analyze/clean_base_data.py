@@ -98,7 +98,7 @@ def extract_room_chars(room_list, room_type_name, char_info_map, current_ts, for
 def main():
     if not os.path.exists(INPUT_FILE):
         print(f"❌ 找不到原始数据文件：{INPUT_FILE}")
-        print("请先执行 `python -m daily_tasks.fetch.get_daily_info` 生成数据！")
+        print("请先执行 `python daily_tasks/fetch/get_daily_info.py` 生成数据！")
         sys.exit(1)
 
     os.makedirs(REPORTS_DIR, exist_ok=True)
